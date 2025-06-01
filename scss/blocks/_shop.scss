@@ -1,0 +1,44 @@
+.shop__list {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.shop__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop__info {
+    color: $red;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 14.5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.shop__title {
+    margin-top: 22px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.shop__text {
+    width: 457px;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 60%;
+}
