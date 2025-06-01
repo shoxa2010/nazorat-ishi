@@ -1,0 +1,40 @@
+.header__container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__item-link {
+    color: $black;
+    margin-right: 56px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        content: "";
+        background-image: url(../../img/arrow-bottom.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        bottom: 3px;
+        right: -16px;
+    }
+}
+
+.header__item-img {
+    margin-right: 30px;
+}
+.header__item-bottom{
+    margin-right: 157px;
+    color: $black;
+}
